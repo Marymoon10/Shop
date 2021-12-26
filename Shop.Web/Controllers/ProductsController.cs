@@ -13,6 +13,7 @@ namespace Shop.Web.Controllers
         public ProductsController(DataContext context)
         {
             _context = context;
+
         }
         public IActionResult Index()
         {
